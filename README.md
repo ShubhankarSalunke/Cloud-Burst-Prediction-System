@@ -27,3 +27,11 @@ The Cloudburst Prediction System is a web application built using Streamlit that
    ```bash
    git clone https://github.com/yourusername/cloudburst-prediction-system.git
    cd cloudburst-prediction-system
+2. Install the required packages:
+   ```
+   pip install -r requirements.txt
+3. Add your API key
+     Replace YOUR_API_KEY in the code with your actual API key.
+4. Run the Streamlit application:
+   ```
+   streamlit run app.py
