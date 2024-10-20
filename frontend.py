@@ -5,7 +5,7 @@ import json
 import joblib
 from streamlit_option_menu import option_menu
 
-with open(r"state_city.json", "r") as f:
+with open(r"states_cities.json", "r") as f:
     states_and_cities = json.load(f)
 
 for state, cities in states_and_cities.items():
